@@ -2,7 +2,7 @@ return {
   "lervag/vimtex",
   init = function()
     -- Viewer settings
-    vim.g.vimtex_view_method = 'sioyek'            -- Sioyek PDF viewer for academic documents
+    vim.g.vimtex_view_method = 'zathura_simple'            -- Sioyek PDF viewer for academic documents
     -- Note: Not setting vimtex_view_sioyek_options allows VimTeX to handle window management
     -- It will open new windows when needed but reuse for the same document
     vim.g.vimtex_context_pdf_viewer = 'okular'     -- External PDF viewer for the Vimtex menu

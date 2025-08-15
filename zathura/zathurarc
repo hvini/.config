@@ -12,7 +12,7 @@ set render-loading "false"
 # set window-width 960
 set window-width 1280
 set window-height 1080
-set adjust-open "best-fit"
+set adjust-open "window-width"
 
 map <Space> toggle_index
 map K zoom in

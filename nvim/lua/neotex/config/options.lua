@@ -30,7 +30,7 @@ function M.setup()
     laststatus = 3,                 -- views can only be fully collapsed with the global statusline
     fileencoding = "utf-8",         -- the encoding written to a file
     guifont = "monospace:h17",      -- the font used in graphical neovim applications
-    background = "dark",            -- colorschemes that can be light or dark will be made dark
+    background = "light",            -- colorschemes that can be light or dark will be made dark
     termguicolors = true,           -- set term gui colors (most terminals support this)
     conceallevel = 0,               -- so that `` is visible in markdown files
     number = true,                  -- set numbered lines
