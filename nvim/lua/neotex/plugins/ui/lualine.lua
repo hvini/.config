@@ -8,7 +8,7 @@ return {
     require('lualine').setup({
       options = {
         icons_enabled = false, -- Disable icons initially for faster load
-        theme = 'gruvbox',
+        theme = 'catppuccin',
         component_separators = '',
         section_separators = '',
         refresh = {
@@ -30,7 +30,7 @@ return {
     require('lualine').setup({
       options = {
         icons_enabled = true,
-        theme = 'gruvbox',
+        theme = 'catppuccin',
         component_separators = { left = '', right = '' },
         section_separators = { left = '', right = '' },
         disabled_filetypes = {
